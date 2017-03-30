@@ -219,7 +219,7 @@ function newWorkImg1() {
   work1.src="images/holiday1.jpg";
 }
 
-// listen for mouseover of image 1
+// listen for mouseover of image 2
 
 work2.addEventListener("click", function( event ) {   
     // change the image on rollover
@@ -234,9 +234,25 @@ work2.addEventListener("click", function( event ) {
 function newWorkImg2() {
   work2.src="images/vinyl.jpg";
 }
+
+// listen for mouseover of image 3
+
+match3.addEventListener("click", function( event ) {   
+    // change the image on rollover
+  newWorkImg3();
+    // reset the image after a short delay of 1 second
+  setTimeout(function() {
+    event.target.src = "images/work3.jpg";
+  }, 1000);
+}, false);
+
+// define function for changing the image source 
+function newWorkImg3() {
+  work3.src="http://res.cloudinary.com/nramdial/image/upload/v1490884675/match2_hi1wec.jpg";
+}
 </script>
 
-<!-- End Document
+<!-- End Document http://res.cloudinary.com/nramdial/image/upload/v1490884675/match2_hi1wec.jpg
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
