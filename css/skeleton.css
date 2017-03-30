@@ -139,6 +139,9 @@ background-image: url("Seamless-Polygon-Backgrounds-Vol2-full.jpg");
   height:100%;
 } 
 
+.value-img {
+  border-color: black 2px;
+}
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
