@@ -140,7 +140,7 @@ background-image: url("Seamless-Polygon-Backgrounds-Vol2-full.jpg");
 } 
 
 .value-img {
-  border-style: solid;
+  border-style: solid 2px;
     border-color: #ff0000 #0000ff;
 }
 /* Base Styles
